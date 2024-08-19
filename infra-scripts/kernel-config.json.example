@@ -1,0 +1,137 @@
+[
+ {
+  "Kernel_version1": {
+        "Version": "3.10.0-693.5.2.el7.x86_64",
+        "OS": "RHEL7",
+        "Current": "False",
+        "Comment": "prior to 2023"
+         },
+ "Kernel_version2": {
+        "Version": "3.10.0-1160.42.2.el7.x86_64",
+        "OS": "RHEL7",
+        "Current": "False",
+	"Comment": "prior to 2023"
+         },
+ "Kernel_version3": {
+        "Version": "3.10.0-1160.53.1.el7.x86_64",
+        "OS": "RHEL7",
+        "Current": "False",
+        "Comment": "prior to 2023"
+         },
+ "Kernel_version4": {
+	"Version": "3.10.0-1160.59.1.el7.x86_64",
+	"OS": "RHEL7",
+	"Current": "False",
+        "Comment": "prior to 2023"
+	 },
+ "Kernel_version5": {
+	"Version": "3.10.0-1160.71.1.el7.x86_64",
+	"OS": "RHEL7",
+	"Current": "False",
+        "Comment": "prior to 2023"
+ 	},
+ "Kernel_version6": {
+ 	"Version": "3.10.0-1160.80.1.el7.x86_64",
+	"OS": "RHEL7",
+	"Current": "False",
+        "Comment": "prior to 2023"
+ 	},
+ "Kernel_version7": {
+        "Version": "3.10.0-1160.81.1.el7.x86_64",
+        "OS": "RHEL7",
+        "Current": "False",
+        "Comment": "prior to 2023" 
+        },
+ "Kernel_version8": {
+        "Version": "3.10.0-1160.88.1.el7.x86_64",
+        "OS": "RHEL7",
+        "Current": "False",
+        "Comment": "Security Patching 2023Q2"
+        },
+ "Kernel_version9": {
+        "Version": "4.18.0-240.15.1.el8_3.x86_64",
+        "OS": "RHEL8",
+        "Current": "False",
+        "Comment": "prior to 2023" 
+        },
+ "Kernel_version10": {
+        "Version": "4.18.0-348.7.1.el8_5.x86_64",
+        "OS": "RHEL8",
+        "Current": "False",
+        "Comment": "prior to 2023" 
+        },
+ "Kernel_version11": {
+	"Version": "4.18.0-348.20.1.el8_5.x86_64",
+	"OS": "RHEL8",
+	"Current": "False",
+        "Comment": "prior to 2023"
+	},
+ "Kernel_version12": {
+        "Version": "4.18.0-348.20.1.el8_5.x86_64",
+        "OS": "RHEL8",
+        "Current": "False",
+        "Comment": "prior to 2023" 
+        },
+ "Kernel_version13": {
+        "Version": "4.18.0-372.16.1.el8_6.x86_64",
+        "OS": "RHEL8",
+        "Current": "False",
+        "Comment": "prior to 2023" 
+        },
+ "Kernel_version14": {
+        "Version": "4.18.0-372.26.1.el8_6.x86_64",
+        "OS": "RHEL8",
+        "Current": "False",
+        "Comment": "Security Patching 2022Q3"
+        },
+ "Kernel_version15": {
+        "Version": "4.18.0-372.57.1.el8_6.x86_64",
+        "OS": "RHEL8",
+        "Current": "False",
+        "Comment": "Security Patching 2022Q3"
+        },
+ "Kernel_version16": {
+        "Version": "4.18.0-425.10.1.el8_7.x86_64",
+        "OS": "RHEL8",
+        "Current": "False",
+        "Comment": "Security Patching 2023Q1"
+        },
+ "Kernel_version17": {
+        "Version": "4.18.0-425.19.2.el8_7.x86_64",
+        "OS": "RHEL8",
+        "Current": "False",
+        "Comment": "Security Patching 2023Q2"
+        },
+ "Kernel_version18": {
+	"Version": "4.18.0-477.15.1.el8_8.x86_64",
+        "OS": "RHEL8",
+        "Current": "True",
+        "Comment": "Security Patching 2023Q3"
+        },
+ "Kernel_version19": {
+        "Version": "3.10.0-1160.92.1.el7.x86_64",
+        "OS": "RHEL7",
+        "Current": "True",
+        "Comment": "Security Patching 2023Q3"
+        },
+ "host_exemptions": {
+        "amsdc2-n-sv0024.europe.shell.com": "AMS HAM server",
+	"houcy1-n-sv0064.americas.shell.com": "HOU HAM server",
+	"pejjbt-n-sv0004.asia-pac.shell.com": "PEJ HAM server",
+        "ahsmprodcs1.europe.shell.com": "hsm systems cannot be rebooted often",
+	"ahsmprodmm1.europe.shell.com": "hsm systems cannot be rebooted often",
+	"ahsmtestcs1.europe.shell.com": "hsm systems cannot be rebooted often",
+	"ahsmtestmm1.europe.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmprodcore1.americas.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmprodcore2.americas.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmproddm5.americas.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmproddm6.americas.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmprodtm3.americas.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmprodtm4.americas.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmtestcore1.americas.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmtestcore2.americas.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmtestmm3.americas.shell.com": "hsm systems cannot be rebooted often",
+        "hhsmtestmm4.americas.shell.com": "hsm systems cannot be rebooted often"
+	}
+ }
+]
