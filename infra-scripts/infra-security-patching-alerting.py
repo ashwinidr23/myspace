@@ -67,8 +67,8 @@ for user in userlist:
                   if vmname in region:
                    #print(vm)
                    facts = subprocess.getoutput("hammer host facts --search 'host=%s'" %(vm))
-                   kernelver = subprocess.getoutput("hammer host facts --search 'host=%s'| grep -w 'facter_kernelrelease' | cut -d '|' -f 2 | tr -d ' '" %(vm))
-                   #kernelver = subprocess.getoutput("hammer host facts --search 'host=%s'| grep -w 'uname::release' | cut -d '|' -f 2 | tr -d ' '" %(vm))
+                   #kernelver = subprocess.getoutput("hammer host facts --search 'host=%s'| grep -w 'facter_kernelrelease' | cut -d '|' -f 2 | tr -d ' '" %(vm))
+                   kernelver = subprocess.getoutput("hammer host facts --search 'host=%s'| grep -w 'uname::release' | cut -d '|' -f 2 | tr -d ' '" %(vm))
                    #print(vm +" is running on kernel version " + kernelver)
                    for kver in kerconfig:
                         #print(" vm " + vm)
